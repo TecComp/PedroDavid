@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Sumadores</title>
+</head>
+
+<body background="g.jpg">
+<h1>Sumadores :) </h1>
+<p> ¿QUE SON LOS SUMADORES?..... </p>
+
+<p>EL sumador es un circuito digital que realiza la adición de números. En muchas computadoras y otros tipos de procesadores se utilizan sumadores en las unidades aritméticas lógicas.</p>
+<p>También se utilizan en otras partes del procesador, donde se utilizan para calcular direcciones, índices de tablas, operadores de incremento y decremento y operaciones similares.</p>
+<p>Aunque los sumadores se pueden construir para muchas representaciones numéricas, tales como decimal codificado en binario o exceso-3, los sumadores más comunes funcionan en números binarios.</p>
+<p>En los casos en que se utiliza el complemento a dos o el complemento a uno para representar números negativos, es trivial modificar un sumador para convertirlo en un sumador-restador.</p>
+<br>
+<center><img src="ñ.jpg"></center>
+
+<br>
+<p>Otras representaciones de números con signo requieren más lógica alrededor del sumador básico. </p>
+<p>El semisumador suma dos dígitos binarios simples A y B, denominados sumandos, y sus salidas son Suma (S) y Acarreo (C).</p>
+<p>La señal de acarreo representa un desbordamiento en el siguiente dígito en una adición de varios dígitos. El diseño más simple de semisumador, representado a la derecha,</p>
+<p>incorpora una puerta XOR para S y una puerta AND para C. Dos semisumadores pueden ser combinados para hacer un sumador completo, añadiendo una puerta OR para combinar sus salidas de acarre</p>
+
+<br>
+
+<center><img src="SISTEMAS11.jpg"></center>
+
+<br>
+<p>Para reducir el tiempo de cálculo, fueron creados los llamados sumadores con anticipación de acarreo. Funcionan creando dos señales (P y G) para cada posición de bit,</p>
+<p>basándose en si un acarreo se propaga a través de una posición de bit menos significativa (al menos una entrada es un 1),</p>
+<p>generada en esa posición de bit (ambas entradas son 1) o es nulo en esa posición de bit (ambas entradas son 0). En la mayoría de los casos, </p>
+<p> P es simplemente la suma de salida de un semisumador y G es la salida de acarreo de éste. Después de que se generen P y G, se crean los acarreos para cada posición de bit.</p>
+<p>Algunas arquitecturas avanzadas de acarreo anticipado son la cadena de acarreo de Mánchester, el sumador de Brent-Kung y el sumador de Kogge-Stone.</p>
+<br>
+<center><img src="u.jpg"></center>
+<br>
+<p>Algunas otras arquitecturas de sumador de varios bits dividen el sumador en bloques.</p>
+<p>Es posible variar la longitud de estos bloques basándose en el retardo de propagación de los circuitos para optimizar el tiempo de cálculo.</p>
+<p>Estos sumadores basados en bloques incluyen el sumador de salto de acarreo (o desvío de acarreo) que determinará los valores de P y G para cada bloque en lugar de cada bit,</p>
+<p>y el sumador de selección de acarreo que genera previamente los valores de suma y acarreo para cualquier posible acarreo de entrada al bloque,</p>
+<p>utilizando multiplexores para seleccionar el resultado apropiado cuando se conoce el bit de acarreo</p>
+
+<br>
+
+<center><iframe width="697" height="392" src="https://www.youtube.com/embed/HiCbt2EIBqU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+
+</body>
+</center>
+</html>
